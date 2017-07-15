@@ -72,7 +72,7 @@ class Perceptron:
                 print('Epoch:\t{0}\tMSE:\t{1:.13f}'.format(epoch, mse[-1]))
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     data = [([0, 0], [0]),
             ([0, 1], [0]),
             ([1, 1], [1]),
