@@ -18,7 +18,7 @@ class Perceptron:
 
     @staticmethod
     def __prediction(x):
-        return 1 if x >= 0.5 else 0
+        return int(round(x))
 
     def __activation(self, x):
         return self.__prediction(self.__transfer(np.dot(self.weights, x) + self.bias))
