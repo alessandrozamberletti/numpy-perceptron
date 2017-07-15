@@ -69,7 +69,7 @@ class Perceptron:
                 mse.append(np.average(square_losses))
                 self.__plot_loss(loss_plot, mse)
                 self.__plot_rule(rule_plot, samples)
-                print('Epoch: {0}\tMSE:\t{1:.13f}'.format(epoch, mse[-1]))
+                print('Epoch:\t{0}\tMSE:\t{1:.13f}'.format(epoch, mse[-1]))
 
 
 if __name__ == "__main__":
